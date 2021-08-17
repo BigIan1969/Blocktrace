@@ -33,7 +33,6 @@ jobs:
       uses: pypa/gh-action-pypi-publish@master
       with:
         verify_metadata: false
-        user: bigian1969
         password: ${{ secrets.PYPI_API_TOKEN }} 
         repository_url: https://github.com/BigIan1969/Blocktrace
         verbose: true
