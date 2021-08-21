@@ -20,7 +20,6 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-import sample
 from tracewrapper import tracewrapper
 import opcode
 import sys
@@ -242,11 +241,3 @@ class BlockTrace(tracewrapper.TracerClass):
 
 
         return self.trace
-
-#tc=BlockTrace("Test",_globals='changes',_locals="changes",_builtins="changes")
-#tracer=tracewrapper.tracewrapper(_trace_opcodes=False)
-#tracer.add(tc.trace)
-#tc.start()
-#tracer.start()
-#test.fib(3)
-#tracer.stop()
