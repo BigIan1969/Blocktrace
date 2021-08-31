@@ -7,7 +7,7 @@ An example that traces a simple fibonacci function
 
       from blocktrace import blocktrace
 
-      #Demo function to trace
+      #Demo Fiboncci function to trace
       def fib(n):
           i, f1, f2 = 1, 1, 1
           while i < n:
