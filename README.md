@@ -15,7 +15,7 @@ An example that traces a simple fibonacci function
               i += 1
           return f1
 
-      #Instanciate blocktrace tracking changes on globals and builtins but tracing all local 
+      #Instantiate blocktrace tracking changes on globals and builtins but tracing all local 
       #variables regardless of changes
       example=blocktrace.BlockTrace("Test",
                                     _globals='changes',
